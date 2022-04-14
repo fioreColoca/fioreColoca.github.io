@@ -87,3 +87,22 @@ section{
     padding-top: 30px;
 }
 
+h4{
+    color:#302b2d;
+    font-size: 210%;
+    font-weight: 700;
+    text-align:center;
+}
+
+.estudios{
+    background-color:#f0e9f5;
+    border: 2px solid #000;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.collapsible-body{
+    background-color: #f8f5fa;
+}
