@@ -36,7 +36,6 @@ body {
     border: 2px solid #000;
     border-radius: 20px;
     -webkit-border-radius: 20px;
-    font-weight: 700;
 }
 
 .infoPrincial{
@@ -47,7 +46,6 @@ body {
     border-radius: 20px;
     -webkit-border-radius: 20px;
     padding-bottom: 20px;
-    font-weight: 500;
 }
 
 .infoPrincial2{
@@ -72,6 +70,7 @@ p{
     margin: 0px;
     padding: 0px;
     color:#302b2d;
+    font-weight: 700;
 }
 
 section{
@@ -96,7 +95,6 @@ h4{
     border: 2px solid #000;
     border-radius: 20px;
     -webkit-border-radius: 20px;
-    font-weight: 700;
     margin-top: 50px;
 }
 
@@ -108,5 +106,28 @@ h4{
 footer{
     text-align: center;
     background-color: #D0CCE4;
-    padding: 30px;
+    padding: 10px;
+    border: 2px solid #000;
+    border-start-end-radius: 20px;
+    border-start-start-radius: 20px;
+}
+
+
+nav{
+    position: fixed;
+    background-color:#F6C5D9;
+    border: 2px solid #000;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+}
+
+.sidenav{
+    position: fixed;
+    background-color:#FFFF;
+    border: 2px solid #000;
+}
+
+.sidenav li{
+    background-color:#ffe6f1;
+    border-bottom: 1px solid #000;
 }

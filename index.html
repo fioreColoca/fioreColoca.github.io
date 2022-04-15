@@ -15,8 +15,33 @@
 <body>
     <header>
 
+        <nav>
+            <div class="nav-wrapper">
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="#Presentacion"><p>Presentación</p></a></li>
+                <li><a href="#Estudios"><p>Mis estudios</p></a></li>
+                <li><a href="#Conocimientos"><p>Mis Conocimientos</p></a></li>
+                <li><a href="#Proyectos"><p>Mis Proyectos</p></a></li>
+                <li><a href="#Contacto"><p>Contacto</p></a></li>
+              </ul>
+            </div>
+          </nav>
+        
+          <ul class="sidenav" id="mobile-demo">
+                  <li><a href="#Presentacion"><p>Presentación</p></a></li>
+                <li><a href="#Estudios"><p>Mis estudios</p></a></li>
+                <li><a href="#Conocimientos"><p>Mis Conocimientos</p></a></li>
+                <li><a href="#Proyectos"><p>Mis Proyectos</p></a></li>
+                <li><a href="#Contacto"><p>Contacto</p></a></li>
+          </ul>
+          
+          
     </header>
 
+    <span id="Presentacion"></span>
+
+    <br/>
     <div class="row">
         <div class="col l6">
             <section>
@@ -46,6 +71,7 @@
                 </div>
             </section>
             <div class="center">
+                <span id="Estudios"></span>
                 <img src="img/gifgatito.gif" width="100" height="100">
             </div>
         </div>
@@ -83,13 +109,14 @@
                     <p>Universidad Nacional de La Matanza (UNLaM).</p>
                     <p>2022-Actualidad</p>
                 </div>
+                <span id="Conocimientos"></span>
             </li>
         </ul>
     </div>
 
 
 
-    <div class="container estudios">
+    <div class="container estudios" >
         <h4>Mis conocimientos </h4>
         <ul class="collapsible">
             <li>
@@ -190,7 +217,7 @@
     </div>
 
 
-    <div class="container estudios">
+    <div class="container estudios" id="Proyectos">
         <h4>Mis Proyectos </h4>
         <ul class="collapsible">
             <li>
@@ -263,7 +290,7 @@
         <div class="center">
             <img src="img/corazon.gif" width="100" height="33">
         </div>
-    <footer>
+    <footer id="Contacto">
             <a title="GitHub" href="https://github.com/fioreColoca"><img src="img/github.png" alt="GitHub" width="50" height="50" /></a>
             <a title="Linkedin" href="https://www.linkedin.com/in/fiorella-noel-coloca-8830991b8/"><img src="img/linkedin.png" alt="Linkedin" width="50" height="50" /></a>
             <a title="Gmail" href="mailto:fiorecoloca99@gmail.com"><img src="img/correo.png" alt="Gmail" width="50" height="50" /></a>
@@ -271,6 +298,7 @@
     </footer>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </body>
 
 
