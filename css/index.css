@@ -1,5 +1,5 @@
 body {
-    background-color: #343333;
+    background-color: #EDEDEF;
 }
 
 
@@ -15,6 +15,7 @@ body {
     font-size: 200%;
     text-align:center;
     background-color:#FEFEFF;
+    border: 2px solid #000;
     border-radius: 20px;
     -webkit-border-radius: 20px;
 }
@@ -22,6 +23,7 @@ body {
 .infoPrincial{
     font-size: 150%;
     text-align:center;
+    border: 2px solid #000;
     background-color:#FEFEFF;
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -29,9 +31,10 @@ body {
 }
 
 .infoPrincial2{
-    background-color:#486063;
-    border-top-right-radius: 19px;
-    border-top-left-radius: 19px;
+    background-color:#D9CAE1;
+    border-bottom: 2px solid #000;
+    border-top-right-radius: 22px;
+    border-top-left-radius: 22px;
     margin-bottom: 20px;
     text-align:right;
 }
@@ -53,14 +56,14 @@ section{
 }
 
 h4{
-    color:#FEFEFF;
+    color:#302b2d;
     font-size: 210%;
     text-align:center;
     margin: 10px;
 }
 
 .estudios{
-    background-color:#486063;
+    background-color:#D8C6E5;
     border: 2px solid #000;
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -68,13 +71,13 @@ h4{
 }
 
 .collapsible-body{
-    background-color: #ECEEEE;
+    background-color: #F1F0F2;
 }
 
 
 footer{
     text-align: center;
-    background-color: #ECEEEE;
+    background-color: #E4E4E4;
     padding: 10px;
     border: 2px solid #000;
     border-start-end-radius: 20px;
@@ -84,7 +87,7 @@ footer{
 
 nav{
     position: fixed;
-    background-color:#ECEDEC;
+    background-color:#E4E4E4;
     border: 1px solid #000;
     border-end-end-radius: 20px;
     border-end-start-radius: 20px;
@@ -95,7 +98,7 @@ nav p{
 }
 .sidenav{
     position: fixed;
-    background-color:#ECEDEC;
+    background-color:#E4E4E4;
 }
 
 .sidenav li{
@@ -117,9 +120,6 @@ nav p{
     padding: 10px;
 }
 
-i{
-    color: #000;
-}
 
 
 
