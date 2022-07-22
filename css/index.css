@@ -1,8 +1,12 @@
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 body {
     background-color: #EDEDEF;
     width: 100%;
 	height: 100%;
 }
+
 
 * {
 	margin: 0;
@@ -17,6 +21,9 @@ p{
     color:#302b2d;
 }
 
+.material-icons{
+    color: #745397;
+}
 
 h4{
     color:#FEFEFF;
@@ -26,37 +33,39 @@ h4{
 }
 
 
-
-.infoPrincial2{
-    background-image: url("https://cdn.pixabay.com/photo/2020/05/13/01/22/polygon-5165444_960_720.jpg");
-    border-bottom: 2px solid #000;
-    border-top-right-radius: 19px;
-    border-top-left-radius: 19px;
-    text-align:right;
-}
-
 #saludo{
-    color:#302b2d;
+    color:#ffffff;
     font-size: 300%;
     margin: 10px;
 }
 
 #texto{
-    color:#302b2d;
+    color:#ffffff;
     font-size: 150%;
     margin: 10px;
-    font-weight: 600;
 }
 
-#nombre{
-    font-size: 350%;
-    margin: 10px;
-    font-weight: 700;
-    color:#745397;
+.t-stroke {
+margin-left: 7px;
+font-family: "Oswald";
+font-size: 70px;
+color: transparent;
+-moz-text-stroke-width: 3px;
+-webkit-text-stroke-width: 2px;
+-moz-text-stroke-color: #000000;
+-webkit-text-stroke-color: #ffffff;
 }
+
+.t-shadow {
+ text-shadow: 3px 3px #8dffcd;
+ }
 
 .fondoAmarillo{
-    background-color: #DDDDDD;
+    background: linear-gradient(to right, rgb(97, 67, 133), rgb(81, 99, 149));
+    height: 50vh;
+    padding-top: 150px;
+    width:100vw;
+    height:100vh; 
 }
 
 .estudios{
@@ -94,20 +103,19 @@ nav p{
     color:#000;
     border-bottom: 3px solid #745397;
     height: 50px;
-    font-weight: 700;
+    font-weight: 300px;
 }
 
 .sidenav{
-    position: fixed;
-    background-color:#EDEDEF;
+    background: linear-gradient(to top, rgb(97, 67, 133), rgb(81, 99, 149));
 }
 
 
 .sidenav p{
-    color:#000;
-    border-bottom: 3px solid #745397;
+    color:rgb(255, 255, 255);
+    border-bottom: 1px solid #f5f1fa;
     height: 40px;
-    font-weight: 700;
+    font-weight: 300px;
 }
 
 
@@ -118,6 +126,10 @@ nav p{
     background-size: 100% auto;
 }
 
+.waves-effect {
+    margin-top: 20px;
+    width: 270px;
+}
 
 
 @media (max-width:768px){
@@ -137,8 +149,13 @@ nav p{
         font-weight: 600;
     }
     
-    #nombre{
-        font-size: 300%;
-        margin: 7px;
-    }
+    
+.t-stroke {
+    margin-left: 7px;
+    font-size: 50px;
+    -moz-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 1px;
+}
+
+ 
 }
